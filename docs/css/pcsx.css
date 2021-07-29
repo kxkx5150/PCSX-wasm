@@ -12,7 +12,7 @@ body {
   font-family: arial, sans-serif;
 }
 pre{
-  display: block;
+  display: inline-block;
   font-family: monospace;
   white-space: pre;
   margin: 1em 0px;
@@ -36,10 +36,12 @@ div.emscripten {
 canvas.emscripten {
   border: 0px none;
   background-color: black;
-  width: 100%;
-  height: 100%;
+  width: 640px;
+  height: 480px;
   top: 0px;
   top: 0;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
 }
 
 #emscripten_logo {
@@ -57,7 +59,7 @@ canvas.emscripten {
 }
 .infobox progress {
   width: 76%;
-  height: 12px;
+  height: 6px;
   background: #444;
   color: lime;
 }
