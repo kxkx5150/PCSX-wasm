@@ -7,7 +7,8 @@ Modified pcsx-r compiled with emscripten to wasm
 
 <br><br><br><br>
 
-
+Demo  
+https://kxkx5150.github.io/PCSX-wasm/
 
 <br><br><br><br>
 
